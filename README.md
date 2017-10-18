@@ -1,14 +1,14 @@
-# preact-default-boilerplate
+# Preact apm-default Boilerplate
 
 ## Documentation
-- This is the default template for [preact-cli](https://github.com/developit/preact-cli).
+- This is the APM default template for [preact-cli](https://github.com/developit/preact-cli).
 - [For Preact](https://preactjs.com/): General information about how to work with Preact, not specific to this template
 
 ## Usage
 
 ``` bash
 $ npm install -g preact-cli
-$ preact create default my-project
+$ preact create gthomas-appfolio/apm-default my-project
 $ cd my-project
 $ npm install
 $ npm run dev
