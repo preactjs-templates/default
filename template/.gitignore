@@ -1,3 +1,10 @@
-node_modules
-/build
+.DS_Store
+.DS_Store?
+.Spotlight-V100
+.Trashes
+._*
+.idea
 /*.log
+/build
+Icon?
+node_modules
