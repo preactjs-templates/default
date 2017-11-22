@@ -38,9 +38,6 @@
       "<rootDir>/src/tests/__mocks__/browserMocks.js"
     ],
     "testURL": "http://localhost:8080",
-    "transform": {
-      "\\.(js|jsx)$": "<rootDir>/src/transformPreprocessor.js"
-    },
     "moduleFileExtensions": [
       "js",
       "jsx"
