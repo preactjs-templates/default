@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "{{ name }}",
+  "name": "name",
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
@@ -18,13 +18,12 @@
     "build/*"
   ],
   "devDependencies": {
-    "babel-jest": "^21.2.0",
     "eslint": "^4.5.0",
     "eslint-config-synacor": "^1.1.0",
     "identity-obj-proxy": "^3.0.0",
     "if-env": "^1.0.0",
     "jest": "^21.2.1",
-    "preact-cli": "^2.0.0",
+    "preact-cli": "^2.1.0",
     "preact-render-spy": "^1.2.1"
   },
   "dependencies": {
