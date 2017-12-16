@@ -17,14 +17,14 @@
     "build/*"
   ],
   "devDependencies": {
-    "eslint": "^4.9.0",
+    "eslint": "^4.13.1",
     "eslint-config-synacor": "^2.0.2",
     "if-env": "^1.0.0",
-    "preact-cli": "^2.0.1"
+    "preact-cli": "^2.1.0"
   },
   "dependencies": {
-    "preact": "^8.2.6",
+    "preact": "^8.2.7",
     "preact-compat": "^3.17.0",
-    "preact-router": "^2.5.7"
+    "preact-router": "^2.6.0"
   }
 }
