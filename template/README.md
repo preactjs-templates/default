@@ -1,3 +1,5 @@
+![Lighthouse-Badge](https://img.shields.io/badge/lighthouse-100%2F100-brightgreen.svg)
+
 # {{ name }}
 
 ## CLI Commands
