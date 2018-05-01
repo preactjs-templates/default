@@ -36,6 +36,7 @@
     "setupFiles": [
       "<rootDir>/src/tests/__mocks__/browserMocks.js"
     ],
+    "testRegex": "(/(__tests__|tests)/.*|(\\.|/)(test|spec))\\.jsx?$",
     "testURL": "http://localhost:8080",
     "moduleFileExtensions": [
       "js",
