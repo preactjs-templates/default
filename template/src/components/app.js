@@ -7,10 +7,6 @@ import Profile from '../routes/profile';
 // import Home from 'async!../routes/home';
 // import Profile from 'async!../routes/profile';
 
-if (module.hot) {
-	require('preact/debug');
-}
-
 export default class App extends Component {
 	
 	/** Gets fired when the route changes.
