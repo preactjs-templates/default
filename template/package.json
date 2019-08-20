@@ -2,7 +2,7 @@
   "private": true,
   "name": "{{ name }}",
   "version": "0.0.0",
-  "license": "MIT",
+  "license": "{{ license }}",
   "scripts": {
     "start": "per-env",
     "start:production": "npm run -s serve",
