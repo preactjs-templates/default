@@ -1,3 +1,4 @@
+import { h } from 'preact';
 import Header from '../src/components/header';
 import { Link } from 'preact-router/match';
 // See: https://github.com/preactjs/enzyme-adapter-preact-pure
