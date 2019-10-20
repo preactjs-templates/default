@@ -38,6 +38,10 @@
     "preact-router": "^3.0.0"
   },
   "jest": {
-    "preset": "jest-preset-preact"
+    "preset": "jest-preset-preact",
+    "setupFiles": [
+			"<rootDir>/tests/__mocks__/browserMocks.js",
+			"<rootDir>/tests/__mocks__/setupTests.js"
+		]
   }
 }
