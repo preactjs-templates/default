@@ -20,8 +20,6 @@ Development server runs on port `8080`. If the default port is already in use on
 
 ## Commands
 
-- `npm run start`: Runs `serve` or `dev`, depending on `NODE_ENV` value. Defaults to `dev server`
-
 - `npm run dev`: Run a development, HMR server
 
 - `npm run serve`: Run a production-like server
