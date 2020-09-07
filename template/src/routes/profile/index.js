@@ -8,7 +8,8 @@ const Profile = ({ user }) => {
 	const [count, setCount] = useState(10);
 
 	useEffect(() => {
-		setInterval(() => setTime(Date.now()), 1000);
+		let timer = setInterval(() => setTime(Date.now()), 1000);
+		return () => clearInterval(timer);
 	}, []);
 
 	return (
@@ -19,7 +20,7 @@ const Profile = ({ user }) => {
 			<div>Current time: {new Date(time).toLocaleString()}</div>
 
 			<p>
-				<button onClick={() => setCount((count) => ++count)}>Click Me</button>
+				<button onClick={() => setCount((count) => count + 1)}>Click Me</button>
 				{' '}
 				Clicked {count} times.
 			</p>
