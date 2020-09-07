@@ -9,8 +9,7 @@
 ## Usage
 
 ``` bash
-$ npm install -g preact-cli
-$ preact create default my-project
+$ npx preact-cli create default my-project
 $ cd my-project
 $ npm install
 $ npm run dev
