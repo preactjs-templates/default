@@ -1,4 +1,3 @@
-import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
 
 // Note: `user` comes from the URL, courtesy of our router
