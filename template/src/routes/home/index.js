@@ -1,6 +1,6 @@
 import style from './style.module.css';
 
-const Home = () => {
+export default function Home() {
 	return (
 		<div class={style.home}>
 			<a href="https://preactjs.com">
@@ -26,15 +26,13 @@ const Home = () => {
 			</section>
 		</div>
 	);
-};
+}
 
-const Resource = props => {
+function Resource(props) {
 	return (
 		<a href={props.link} class={style.resource}>
 			<h2>{props.title}</h2>
 			<p>{props.description}</p>
 		</a>
 	);
-};
-
-export default Home;
+}
