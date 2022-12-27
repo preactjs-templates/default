@@ -16,6 +16,6 @@ const App = () => (
 			<Profile path="/profile/:user" />
 		</Router>
 	</div>
-)
+);
 
 export default App;
