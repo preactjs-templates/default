@@ -8,7 +8,7 @@
 
 ## Usage
 
-``` bash
+```bash
 $ npx preact-cli create default my-project
 $ cd my-project
 $ npm install
