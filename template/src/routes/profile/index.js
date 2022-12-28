@@ -1,6 +1,5 @@
 import { h } from 'preact';
 import { useEffect, useState } from 'preact/hooks';
-import style from './style.css';
 
 // Note: `user` comes from the URL, courtesy of our router
 const Profile = ({ user }) => {
@@ -13,7 +12,7 @@ const Profile = ({ user }) => {
 	}, []);
 
 	return (
-		<div class={style.profile}>
+		<div>
 			<h1>Profile: {user}</h1>
 			<p>This is the user profile for a user named {user}.</p>
 
