@@ -10,11 +10,13 @@ import Profile from '../routes/profile';
 const App = () => (
 	<div id="app">
 		<Header />
-		<Router>
-			<Home path="/" />
-			<Profile path="/profile/" user="me" />
-			<Profile path="/profile/:user" />
-		</Router>
+		<main>
+			<Router>
+				<Home path="/" />
+				<Profile path="/profile/" user="me" />
+				<Profile path="/profile/:user" />
+			</Router>
+		</main>
 	</div>
 );
 
