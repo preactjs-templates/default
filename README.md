@@ -9,7 +9,7 @@
 ## Usage
 
 ```bash
-$ npx preact-cli create default my-project
+$ [npm init / yarn create] preact-cli default my-project
 $ cd my-project
 $ npm install
 $ npm run dev
