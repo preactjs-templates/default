@@ -25,8 +25,8 @@
 	},
 	"dependencies": {
 		"preact": "^10.11.3",
-		"preact-render-to-string": "^5.2.6",
-		"preact-router": "^3.2.1"
+		"preact-iso": "^2.3.1",
+		"preact-render-to-string": "^5.2.6"
 	},
 	"jest": {
 		"preset": "jest-preset-preact",
